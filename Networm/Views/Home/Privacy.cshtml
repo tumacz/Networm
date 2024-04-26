@@ -1,0 +1,31 @@
+﻿@model List<Person>
+@{
+    ViewData["Title"] = "Privacy Policy";
+}
+
+<script>
+    //update time function
+    function updateTime() {
+        var currentTime = new Date();
+        var hours = currentTime.getHours();
+        var minutes = currentTime.getMinutes();
+        var seconds = currentTime.getSeconds();
+        var formattedTime = hours + ":" + minutes + ":" + seconds;
+        document.getElementById("current-time").innerText = formattedTime;
+    }
+
+    setInterval(updateTime, 1000);
+
+    updateTime();
+</script>
+
+<h1>@ViewData["Title"]</h1>
+
+<p>Use this page to detail your site's privacy policy.</p>
+
+<p>Current time: <span id="current-time"></span></p>
+
+@foreach(var person in Model)
+{
+    <p>@person.FirstName</p>
+}
