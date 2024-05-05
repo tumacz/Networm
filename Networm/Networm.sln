@@ -5,6 +5,12 @@ VisualStudioVersion = 17.9.34622.214
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Networm", "Networm.csproj", "{A3A20A02-DB6F-4FB1-A67D-91A9A47F98AF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Networm.Domain", "..\Networm.Domain\Networm.Domain.csproj", "{7587CEED-C799-41CF-8E27-E7D916887EB0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Networm.Application", "..\Networm.Application\Networm.Application.csproj", "{7C1DD1F6-D738-4B8B-94FC-CC6BEF78BA15}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Networm.Infrastructure", "..\Networm.Infrastructure\Networm.Infrastructure.csproj", "{5AF434A6-6E35-4C0D-A928-6608C1BDFD56}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +21,18 @@ Global
 		{A3A20A02-DB6F-4FB1-A67D-91A9A47F98AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A3A20A02-DB6F-4FB1-A67D-91A9A47F98AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A3A20A02-DB6F-4FB1-A67D-91A9A47F98AF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7587CEED-C799-41CF-8E27-E7D916887EB0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7587CEED-C799-41CF-8E27-E7D916887EB0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7587CEED-C799-41CF-8E27-E7D916887EB0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7587CEED-C799-41CF-8E27-E7D916887EB0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7C1DD1F6-D738-4B8B-94FC-CC6BEF78BA15}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C1DD1F6-D738-4B8B-94FC-CC6BEF78BA15}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C1DD1F6-D738-4B8B-94FC-CC6BEF78BA15}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C1DD1F6-D738-4B8B-94FC-CC6BEF78BA15}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5AF434A6-6E35-4C0D-A928-6608C1BDFD56}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5AF434A6-6E35-4C0D-A928-6608C1BDFD56}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5AF434A6-6E35-4C0D-A928-6608C1BDFD56}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5AF434A6-6E35-4C0D-A928-6608C1BDFD56}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
